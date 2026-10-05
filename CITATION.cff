@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below (preferred) and/or this repository."
+title: "placenta-pas-anomaly-mri"
+abstract: >-
+  Code for detecting Placenta Accreta Spectrum (PAS) on MRI by learning only normal
+  placental appearance: a reconstruction-based anomaly-detection model (f-AnoGAN) trained
+  on no PAS cases, plus the DynUNet placenta-segmentation pipeline that feeds it.
+type: software
+version: "1.0.0"
+license: Apache-2.0
+repository-code: "https://github.com/R0b3r7S/placenta-pas-anomaly-mri"
+keywords:
+  - placenta accreta spectrum
+  - anomaly detection
+  - f-AnoGAN
+  - MRI
+  - medical image segmentation
+  - fetal MRI
+authors:
+  - family-names: "Šojo"
+    given-names: "Robert"
+    email: "robert.sojo@ferit.hr"
+    affiliation: "Faculty of Electrical Engineering, Computer Science and Information Technology Osijek (FERIT), Josip Juraj Strossmayer University of Osijek"
+  - family-names: "Benčević"
+    given-names: "Marin"
+    affiliation: "Faculty of Electrical Engineering, Computer Science and Information Technology Osijek (FERIT), Josip Juraj Strossmayer University of Osijek"
+  - family-names: "Kovačević"
+    given-names: "Lucija"
+    affiliation: "University Hospital Centre Zagreb"
+  - family-names: "Šimić"
+    given-names: "Anja"
+    affiliation: "University Hospital Centre Zagreb"
+  - family-names: "Prutki"
+    given-names: "Maja"
+    affiliation: "University Hospital Centre Zagreb; School of Medicine, University of Zagreb"
+  - family-names: "Galić"
+    given-names: "Irena"
+    affiliation: "Faculty of Electrical Engineering, Computer Science and Information Technology Osijek (FERIT), Josip Juraj Strossmayer University of Osijek"
+preferred-citation:
+  type: article
+  title: "Learning Normal Placental Appearance for MRI Detection of Placenta Accreta Spectrum"
+  year: 2026
+  notes: "Under review at the Journal of Medical and Biological Engineering. Update with volume, pages and DOI upon acceptance."
+  authors:
+    - family-names: "Šojo"
+      given-names: "Robert"
+    - family-names: "Benčević"
+      given-names: "Marin"
+    - family-names: "Kovačević"
+      given-names: "Lucija"
+    - family-names: "Šimić"
+      given-names: "Anja"
+    - family-names: "Prutki"
+      given-names: "Maja"
+    - family-names: "Galić"
+      given-names: "Irena"
