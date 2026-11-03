@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------------------
+# This repository is CODE ONLY. No patient data, MRI, DICOM, masks, model
+# weights or derived outputs must ever be committed. The rules below are a
+# safety net against accidental commits of data.
+# ---------------------------------------------------------------------------
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+env/
+
+# Data — NEVER commit (patient data / large binaries)
+dataset/
+*.nii
+*.nii.gz
+*.dcm
+*.png
+*.jpg
+*.jpeg
+*.xlsx
+*.docx
+
+# Model outputs / runs / derived results
+runs/
+runs_fanogan/
+runs_fanogan_loo/
+boundary_patches/
+boundary_patches_loo/
+comparison_results/
+shareable/
+
+# Trained weights
+*.pth
+*.pt
+*.ckpt
+
+# OS / editor
+.DS_Store
+*.swp

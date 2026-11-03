@@ -1,0 +1,30 @@
+placenta-pas-anomaly-mri
+Copyright 2026 Robert Šojo, Marin Benčević, Irena Galić
+Faculty of Electrical Engineering, Computer Science and Information Technology
+Osijek (FERIT), Josip Juraj Strossmayer University of Osijek.
+
+Licensed under the Apache License, Version 2.0 (see the LICENSE file).
+
+--------------------------------------------------------------------------------
+Third-party components (derived and MODIFIED from Apache-2.0 projects)
+--------------------------------------------------------------------------------
+
+This software includes files derived from, and modified relative to, the
+following third-party projects, both licensed under the Apache License,
+Version 2.0:
+
+* augmentations/afa.py and augmentations/dual_norm.py
+  Derived and modified from "Augmentations for the Unknown" (Auxiliary
+  Fourier-basis Augmentation and Dual Instance-Batch Normalisation).
+  Copyright 2024 MIA Group - UT.
+  https://github.com/MIAGroupUT/augmentations-for-the-unknown
+
+* augmentations/mixup_binary.py and augmentations/cutmix_binary.py
+  Derived and modified from the MixUp / CutMix implementation in nnU-Net.
+  Copyright Division of Medical Image Computing, German Cancer Research
+  Center (DKFZ).
+  https://github.com/MIC-DKFZ/nnUNet
+
+The files listed above were modified from their originals for use in this
+project's MONAI-based placental-MRI pipeline. All other files are original
+work of the copyright holders named at the top of this file.
